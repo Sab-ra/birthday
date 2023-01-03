@@ -18,13 +18,15 @@ a {
 
 button {
   padding: 8px 32px;
-  background-color: hsl( 221, 82%, 62% );
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: 700;
   border: none;
   border-radius: 8px;
 }
 
 header {
-  background-color: hsl( 220, 39%, 21% );
+  background-color: #212f4a;
   padding: 16px 64px 32px;
 }
 
@@ -50,15 +52,15 @@ header {
 
 .promo {
   width: 50%;
-  color: hsl( 210, 1%, 98% );
+  color: #fafafa;
 }
 
 .promo_img {
   width: 50%;
   min-width: 200px;
   min-height: 100px;
-  background-color: hsl( 222, 10%, 49% );
-  color: hsl( 210, 1%, 98% );
+  background-color: #707889;
+  color: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +96,7 @@ header {
 .img_placeholder {
   height: 150px;
   width: 150px;
-  border: 2px solid hsl( 221, 82%, 62% );
+  border: 2px solid #3882f6;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -103,4 +105,47 @@ header {
 
 .img_description {
   text-align: center;
+}
+
+.quote_section {
+  background-color: #e5e7eb;
+  padding: 32px 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quote_author {
+  align-self: flex-end;
+}
+
+em {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.call_to_action_section {
+  padding: 32px 128px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.button {
+  border: 2px solid #e5e7eb;
+  flex-shrink: 0;
+}
+
+.call_title,
+.call {
+  color: #e5e7eb;
 }
