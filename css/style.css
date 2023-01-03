@@ -18,7 +18,7 @@ a {
 
 button {
   padding: 8px 32px;
-  background-color: hsl(221, 82%, 62%);
+  background-color: hsl( 221, 82%, 62% );
   border: none;
   border-radius: 8px;
 }
@@ -62,4 +62,45 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gallery {
+  padding: 32px 64px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.gallery_title {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery_container {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.gallery_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+}
+
+.img_placeholder {
+  height: 150px;
+  width: 150px;
+  border: 2px solid hsl( 221, 82%, 62% );
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_description {
+  text-align: center;
 }
