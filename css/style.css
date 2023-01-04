@@ -47,20 +47,22 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 32px;
-  
 }
 
 .promo {
-  width: 50%;
+  flex-basis: 500px;
+  flex-shrink: 3;
   color: #fafafa;
 }
 
 .promo_img {
-  width: 50%;
-  min-width: 200px;
-  min-height: 100px;
-  background-color: #707889;
+  flex-basis: 300px;
+  background-color: #EB7A4A;
   color: #fafafa;
+  border-radius: 5px;
+  padding: 8px;
+  height: 160px;
+  align-self: flex-end;
   display: flex;
   justify-content: center;
   align-items: center;
