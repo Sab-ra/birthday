@@ -96,7 +96,7 @@ header {
 .img_placeholder {
   height: 150px;
   width: 150px;
-  border: 2px solid #3882f6;
+  border: 3px solid #3882f6;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -148,4 +148,13 @@ em {
 .call_title,
 .call {
   color: #e5e7eb;
+}
+
+footer {
+  padding: 8px;
+  background-color: #212f4a;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
