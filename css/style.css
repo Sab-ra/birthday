@@ -127,6 +127,7 @@ h1 {
 }
 
 .gallery_container {
+  max-width: 800px;
   display: flex;
   justify-content: space-around;
   gap: 64px;
