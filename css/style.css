@@ -9,24 +9,42 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+ 
 }
 
 a {
   text-decoration: none;
-  color: hsl( 210, 1%, 98% )
+  color: hsl(0, 0%, 98%);
+  font-size: larger;
 }
 
 button {
   padding: 8px 32px;
   background-color: #3882f6;
   color: #e5e7eb;
+  font-size: large;
   font-weight: 700;
   border: none;
   border-radius: 8px;
 }
 
+h1,
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  font-size: x-large;
+  font-weight: 700;
+
+}
+
+p {
+  font-size: larger;
+}
+
 header {
-  background-color: #212f4a;
+  background-color: hsl( 116, 38%, 21% );
   padding: 16px 64px 32px;
 }
 
@@ -50,22 +68,29 @@ header {
 }
 
 .promo {
-  flex-basis: 500px;
+  flex-basis: 560px;
   flex-shrink: 3;
   color: #fafafa;
 }
 
-.promo_img {
+.promo_img_container {
   flex-basis: 300px;
   background-color: #EB7A4A;
   color: #fafafa;
   border-radius: 5px;
-  padding: 8px;
   height: 160px;
   align-self: flex-end;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.promo_img {
+  flex-shrink: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .gallery {
@@ -145,6 +170,8 @@ em {
 .button {
   border: 2px solid #e5e7eb;
   flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .call_title,
@@ -154,7 +181,7 @@ em {
 
 footer {
   padding: 8px;
-  background-color: #212f4a;
+  background-color: hsl( 116, 38%, 21% );
   color: #e5e7eb;
   display: flex;
   justify-content: center;
