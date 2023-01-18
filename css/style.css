@@ -55,6 +55,11 @@ header {
   flex-wrap: wrap;
 }
 
+.google_cal {
+  border: 1px solid #3882f6;
+  border-radius: 2px;
+}
+
 .promo_container {
   display: flex;
   flex-direction: column;
