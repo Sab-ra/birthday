@@ -46,7 +46,7 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .menu {
@@ -59,7 +59,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 16px;
 }
 
@@ -68,7 +68,7 @@ header {
   border-radius: 5px;
   height: 160px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
